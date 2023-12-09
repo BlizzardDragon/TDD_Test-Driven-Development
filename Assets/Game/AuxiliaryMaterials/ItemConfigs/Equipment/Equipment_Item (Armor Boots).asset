@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21f7563262774042b3d2992c9704f5f, type: 3}
+  m_Name: Equipment_Item (Armor Boots)
+  m_EditorClassIdentifier: 
+  _prototype:
+    _name: Armor Boots
+    _flags: 5
+    _inventoryIndex: 0
+    _currentInventory: 0
+    _metadata:
+      Icon: {fileID: 21300000, guid: a4d06be3926015446a1254d42f72f569, type: 3}
+      Title: Armor Boots
+      Description: '+ 3 Speed
+
+        + 7 Armor'
+    _components:
+    - rid: 6044926257928601600
+    - rid: 6044926257217142786
+  references:
+    version: 2
+    RefIds:
+    - rid: 6044926257217142786
+      type: {class: CharacterStatsComponent, ns: , asm: Assembly-CSharp}
+      data:
+        _parameters:
+        - rid: 6044926257217142787
+        - rid: 6044926257217142788
+    - rid: 6044926257217142787
+      type: {class: IntCharacterStats, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 3
+        _value: 3
+    - rid: 6044926257217142788
+      type: {class: IntCharacterStats, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 2
+        _value: 7
+    - rid: 6044926257928601600
+      type: {class: EquipmentTypeComponent, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 5

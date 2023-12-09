@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21f7563262774042b3d2992c9704f5f, type: 3}
+  m_Name: Equipment_Item (Heavy Armour)
+  m_EditorClassIdentifier: 
+  _prototype:
+    _name: Heavy Armour
+    _flags: 5
+    _inventoryIndex: 0
+    _currentInventory: 0
+    _metadata:
+      Icon: {fileID: 21300000, guid: 6ac270cb5af314a42af64960c696a8a1, type: 3}
+      Title: Heavy Armour
+      Description: '+ 15 Armor
+
+        + 50 HitPoints
+
+        + 3 Blocked Damage'
+    _components:
+    - rid: 6044926257217142793
+    - rid: 6044926257217142794
+  references:
+    version: 2
+    RefIds:
+    - rid: 6044926257217142793
+      type: {class: EquipmentTypeComponent, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 3
+    - rid: 6044926257217142794
+      type: {class: CharacterStatsComponent, ns: , asm: Assembly-CSharp}
+      data:
+        _parameters:
+        - rid: 6044926257217142795
+        - rid: 6044926257217142796
+        - rid: 6044926257217142797
+    - rid: 6044926257217142795
+      type: {class: IntCharacterStats, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 2
+        _value: 15
+    - rid: 6044926257217142796
+      type: {class: IntCharacterStats, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 0
+        _value: 50
+    - rid: 6044926257217142797
+      type: {class: IntCharacterStats, ns: , asm: Assembly-CSharp}
+      data:
+        _type: 4
+        _value: 3

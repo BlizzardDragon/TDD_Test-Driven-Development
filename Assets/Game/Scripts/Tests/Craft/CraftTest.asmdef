@@ -1,0 +1,20 @@
+{
+    "name": "CraftTest",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e0a5736a0f9b0524191677b8ffcc33d4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
